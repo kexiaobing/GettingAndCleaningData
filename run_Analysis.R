@@ -44,7 +44,7 @@ allData = rbind(trainData,testData);
 # Get the column names from the allData
 headers  = colnames(allData);
 # Create a vector containing TRUE values for the ID, mean() & stddev() columns and FALSE for others
-vec = ((grepl("activity..",headers) | grepl("subject..",headers) | grepl("-mean..",headers) | grepl("-std..",headers)) & !grepl("-meanFreq..",headers) & !grepl("mean..-",headers) & !grepl("-std()..-",headers));
+vec = ((grepl("activity..",headers) | grepl("subject..",headers) | grepl("-mean..",headers) | grepl("-std..",headers))  & !grepl("mean..-",headers) & !grepl("-std()..-",headers));
 
 # Subset allData based on the vector to keep only required columnsheaders
 allData = allData[vec==TRUE];
