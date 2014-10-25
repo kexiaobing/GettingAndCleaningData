@@ -42,12 +42,12 @@ An identifier of the subject who carried out the experiment.
    
    trainData: all the train data
    
-   finalData: all the train and test data
+   allData: all the train and test data
    
-   colNames: the column names of finalData
+   headers: the column names of allData
    
-   finalData2: the final data without activity types
+   allData2: the all data without activity types
    
-   tidyData: the tidy data required by the project
+   tidyData: the final tidy dataset
    
-   tidydata.txt: the result file of the tidy data in text format without row names which is required by the project 
+   tidydata.txt: the result file of the tidy data in text format without row names 
