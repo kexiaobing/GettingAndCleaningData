@@ -24,19 +24,19 @@ An identifier of the subject who carried out the experiment.
 
    features:   data from file features.txt
    
-   activityType: data from file activity_labels.txt
+   activity-label: data from file activity_labels.txt
    
-   subjectTrain: data from file subject_train.txt
+   subject-train: data from file subject_train.txt
    
-   xTrain: data from file x_train.txt
+   x-train: data from file x_train.txt
    
-   yTrain: data from file y_train.txt
+   y-train: data from file y_train.txt
    
-   subjectTest: data from file subject_test.txt
+   subject-test: data from file subject_test.txt
    
-   xTest: data from file x_test.txt
+   x-test: data from file x_test.txt
    
-   yTest: data from file  y_test.txt
+   y-test: data from file  y_test.txt
    
    testData: all  the test data
    
@@ -46,8 +46,8 @@ An identifier of the subject who carried out the experiment.
    
    headers: the column names of allData
    
-   allData2: the all data without activity types
+   allData2: the all data without activity labels
    
-   tidyData: the final tidy dataset
+   tidyData: the tidy dataset
    
    tidydata.txt: the result file of the tidy data in text format without row names 
